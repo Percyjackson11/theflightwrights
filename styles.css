@@ -1,0 +1,52 @@
+body {
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Lato';
+}
+.bodyFont {
+  background: rgba(0,0,0,0.6);
+  padding: 20px; 
+  color: white;
+  border-radius: 5px;
+}
+.linkspecial {
+  color: white;
+  text-decoration: none;
+  background: rgba(0,0,0,0.6); 
+  padding: 10px;
+}
+.linkspecial:hover {
+  text-decoration: none;
+  color: cyan;
+}
+.pageheading{
+  background: rgba(0,34,34,0.6); 
+  padding: 20px;
+  font-size: 60px;
+  color: white;
+}
+img{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.emailinput{
+  outline: none;
+  border: 0px solid black;
+  font-size: 20px;
+  padding: 15px;
+  width: 60%;
+}
+.subscrbutton{
+  outline: none;
+  border: 0px solid black;
+  font-size: 20px;
+  padding: 15px;
+  width: 15%;  
+  cursor: pointer;
+  background-color: orange;
+}
